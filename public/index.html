@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gemini AI Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>🤖 Gemini AI Chatbot</h1>
+      <div class="header-actions">
+        <button id="theme-btn" title="Dark / Light mode">🌙</button>
+        <button id="clear-btn" title="Chat clear karo">Clear</button>
+      </div>
+    </header>
+
+    <main id="chat-box" class="chat-box"></main>
+
+    <form id="chat-form" class="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Apna message likho..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="send-btn">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
