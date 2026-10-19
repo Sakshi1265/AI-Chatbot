@@ -36,10 +36,15 @@ AI-Chatbot/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+├── Screenshots/
+│   ├── Lighttheme.png
+│   └── Darktheme.png
 ├── server.js
 ├── package.json
+├── package-lock.json
 ├── .env.example
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ## How to Run Locally
